@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
 
   void _changeBackgroundColor() {
     setState(() {
-      _backgroundColor = _backgroundColor == Colors.white ? Colors.blueAccent : Colors.white;
+      _backgroundColor = _backgroundColor == Colors.white ? Colors.redAccent : Colors.white;
     });
   }
 
